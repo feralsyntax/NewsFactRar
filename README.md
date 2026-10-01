@@ -83,7 +83,7 @@ Reach out with any issues, concerns, or contributions to [Benie-throughMail](dav
 
 ### License
 
-*Copyright (c) 2022* ***Benson Langat***
+*Copyright (c) 2022 - 2026* ***Benson Langat***
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -104,6 +104,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.*
 
 ###
-Copyright (c) 2022 **Benson Langat**
+Copyright (c) 2022 - 2026 **Benson Langat**
 
-[Python](https://www.python.org/) version 3.8.13
+[Python](https://www.python.org/) version 3.14.4
