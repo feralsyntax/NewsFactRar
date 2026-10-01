@@ -1,11 +1,11 @@
 # NewsFactRar
 
-A news app generated with [Python](https://www.python.org/) version 3.8.13 && [Flask](https://flask.palletsprojects.com/en/2.1.x/) version 1.1.4 
+A news app generated with [Python](https://www.python.org/) version 3.14.4 && [Flask](https://flask.palletsprojects.com/en/2.1.x/) version 3.1.3
 
 # NewsFactRar
 #### This repo creates an app that consumes newsapi to display various news sources and their articles.
 ## Author
-[Benson Langat](https://github.com/benie254)
+[Benson Langat](https://github.com/feralsyntax)
 
 ## Description
 
@@ -19,67 +19,46 @@ NewsFactRar app displays news from the Newsapi. Users can find top headlines & v
 
 <img src="https://user-images.githubusercontent.com/99865051/167088844-eaa3530e-d8c6-41a7-9338-5959aeee171f.png">
 
-## Behavior Driven Development--BDD
-
-**1. Home Page**
-   - OUTPUT: 'Navbar, Welcome message, Sidebar, Home page content'
-   
-**2. User Action:** 
-   - INPUT:  Click : Navbar : 'NewsFactRar', 'HOME'
-   - OUTPUT: Home page
-   - OUTPUT: Top Headlines
-   - OUTPUT: Sidebar--News Sources
-   
-**3. User Action:**
-   - INPUT:  Click : Navbar : 'All Articles'
-   - OUTPUT: All Articles page
-   - OUTPUT: Random Articles
-   
-**4. User Action:**
-   - INPUT:  Click : Navbar : 'All Sources'
-   - OUTPUT: All Sources page
-   - OUTPUT: Random Sources
-   
-**5. User Action:**
-   - INPUT:  Click : Navbar : 'BBC'
-   - OUTPUT: BBC News page
-   - OUTPUT: News Articles by BBC
-   
-**6. User Action:**
-   - INPUT:  Click : Navbar : 'CNN'
-   - OUTPUT: CNN News page
-   - OUTPUT: News Articles by CNN
-   
-**7. User Action:**
-   - INPUT:  Click : Navbar : 'TechCrunch'
-   - OUTPUT: TechCrunch News page
-   - OUTPUT: News Articles by TechCrunch
-   
-**8. User Action:**
-   - INPUT:  Click : Navbar : 'TechRadar'
-   - OUTPUT: TechRadar News page
-   - OUTPUT: News Articles by TechRadar
-   
-**9. User Action:**
-   - INPUT:  Click : Navbar : 'The Verge'
-   - OUTPUT: The Verge News page
-   - OUTPUT: News Articles by The Verge
-   
-**10. User Action:**
-   - INPUT:  Click : Browser Page : Close
-   - Exits
 
 
-## Setup/Installation Requirements
+## Setup Requirements
+
+### Installation
 
 * To use this open-source repo, clone it; to contribute, fork it. 
 * Open your Terminal (CTRL + ALT + T on Ubuntu/Linux). 
 * Make a destination directory in your preferred path (where you would like to clone the repo into.)
 * Run the command ``` cd yourDestinationDirectory ```
-* Run the command ``` git clone https://github.com/benie254/flaskNews.git ``` to clone the repo into your destination directory. 
-* Run the command ``` cd flaskNews ``` to move you into this repo's directory.
+* Run the command ``` git clone https://github.com/benie254/NewsFactRar.git ``` to clone the repo into your destination directory. 
+* Run the command ``` cd NewsFactRar ``` to move you into this repo's directory.
 * Run the command ``` atom . ``` for Atom or ``` code . ``` for VSCode --opens the directory in your preferred code editor. (it is okay if you use something different.)
 * Happy coding!
+
+### Running the Project
+
+- To run the project locally, follow the steps below:
+   - Create & activate a virtual environment
+      - If using virtualenv
+         ```
+         virtualenv venv
+         ```
+      - Activate it
+         ```
+         source venv/bin/activate
+         ```
+      - Install requirements
+         ```
+         pip install -r requirements.txt
+         ```
+
+      - Run tests
+         ```
+         python -m pytest
+         ```
+      - Start the local server
+         ```
+         flask --app run:app run
+         ```
 
 ## Known Bugs
 
