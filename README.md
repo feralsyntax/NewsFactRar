@@ -46,19 +46,19 @@ NewsFactRar app displays news from the Newsapi. Users can find top headlines & v
          ```
          source venv/bin/activate
          ```
-      - Install requirements
-         ```
-         pip install -r requirements.txt
-         ```
+   - Install requirements
+      ```
+      pip install -r requirements.txt
+      ```
 
-      - Run tests
-         ```
-         python -m pytest
-         ```
-      - Start the local server
-         ```
-         flask --app run:app run
-         ```
+   - Run tests
+      ```
+      python -m pytest
+      ```
+   - Start the local server
+      ```
+      flask --app run:app run
+      ```
 
 ## Known Bugs
 
