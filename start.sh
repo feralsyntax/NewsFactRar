@@ -1,4 +1,0 @@
-NEWS_API_KEY=0f9d0d42be174a258e016c6403ddd477
-SECRET_KEY=@MonalissaSecret123!
-
-python run.py server
